@@ -1,0 +1,63 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #3c3d47;
+  text-align: center;
+}
+
+main {
+  background-image: url("https://www.transparenttextures.com/patterns/inspiration-geometry.png");
+  min-height: 600px;
+  padding: 30px 0;
+}
+
+form {
+  margin: auto;
+  padding: 20px;
+  width: 400px;
+}
+
+input {
+  margin: 10px 0;
+}
+
+footer {
+  padding: 30px;
+}
+
+footer p {
+  margin-bottom: 0em;
+}
+
+.heading-1 {
+  color: #3c3d47 !important;
+  font-family: 'Lemonada', cursive;
+  font-size: 2rem;
+}
+
+.heading-2 {
+  color: #3c3d47;
+  margin: 20px;
+}
+
+.bg-color1 {
+  background-color: #f66767;
+}
+
+.bg-color2 {
+  background-color: #f9d5bb;
+}
+
+.tbl {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.tblhead {
+  background-color: #3c3d47;
+  color: #f9d5bb;
+}
+
+.tblbody {
+  background-color: #ffffff;
+  color: #3c3d47;
+}

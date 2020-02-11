@@ -1,0 +1,22 @@
+<%- include("partials/header.ejs") -%>
+<main class="bg-color2">
+  <h2 class="heading-2">Add Books</h2>
+  <form action="/insert" method="post">
+    <input
+      class="form-control"
+      type="text"
+      name="bookID"
+      placeholder="Book ID"
+    />
+    <input
+      class="form-control"
+      type="text"
+      name="bookTitle"
+      placeholder="Book Title"
+    />
+    <button class="btn btn-block bg-color1" type="submit">
+      ADD BOOK
+    </button>
+  </form>
+</main>
+<%- include("partials/footer.ejs") -%>

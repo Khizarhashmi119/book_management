@@ -1,0 +1,17 @@
+<%- include("partials/header.ejs") -%>
+<main class="bg-color2">
+  <h2 class="heading-2">Delete Book</h2>
+  <form action="/delete" method="post">
+    <input
+      class="form-control"
+      type="text"
+      name="bookID"
+      id="bookID"
+      placeholder="Book ID"
+    />
+    <button class="btn btn-block bg-color1" type="submit">
+      DELETE BOOK
+    </button>
+  </form>
+</main>
+<%- include("partials/footer.ejs") -%>
